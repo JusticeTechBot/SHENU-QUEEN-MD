@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split("94710109956,")
+global.owner = process.env.OWNER_NUMBER.split("2348159050063,")
 global.mongodb = process.env.MONGODB_URI || "mongodb://mongo:cCBe2fBeA26f4eEbDbC2gD64226EHFg3@viaduct.proxy.rlwy.net:34483"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
@@ -12,7 +12,7 @@ global.allowJids = process.env.ALLOW_JID ||'120363165030810524@g.us' ;
 global.github = 'https://github.com/CYBER-THUSHAN/SHENU-QUEEN-V1'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94710109956'
+global.sudo = process.env.SUDO || 2348159050063'
 global.devs = '94710109956';
 global.INBOX_BLOCK = 'true'
 global.TIMEZONE = 'Asia/Colombo' 
